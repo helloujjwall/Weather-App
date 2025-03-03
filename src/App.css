@@ -1,0 +1,142 @@
+/* Global Styling */
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Weather App Box */
+.weather-app {
+  background: rgb(99, 99, 232);
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+  width: 230px;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-box input {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+}
+
+.search-box button {
+  background: rgb(202, 243, 0);
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Weather Display */
+.weather-icon {
+  font-size: 70px;
+  margin: 40px 25px 0px 25px;
+  color: rgb(202, 243, 0);
+}
+
+.temperature {
+  margin-top: 12px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Location Box */
+.location-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Icon aur text ke beech gap */
+  margin: -35px 25px 30px 25px;
+}
+
+/* Location Icon */
+.location-box i {
+  font-size: 25px;
+  color: rgb(202, 243, 0); /* Icon ka color theme ke hisaab se */
+}
+
+/* Location Text */
+.location {
+  font-size: 35px;
+  margin: 0; /* Extra spacing hataya */
+  font-weight: bold;
+}
+
+/* Weather Details */
+.weather-details {
+  display: flex;
+  justify-content: space-between; /* Box ke beech equal space */
+  align-items: center;
+  margin-top: 20px;
+  gap: 40px; /* Dono box ke beech ka gap */
+}
+
+.detail-box {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 12px; /* Icon aur text ke beech ka gap */
+  margin-top: 24px;
+}
+
+
+.detail-box i {
+  font-size: 30px;
+  color: rgb(202, 243, 0);
+}
+
+.detail-content {
+  width: 100%;
+}
+
+.detail-content span {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+.detail-content p{
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  opacity: 0.8;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffcc00; /* Yellow highlight */
+}
