@@ -41,4 +41,5 @@ npm start
 ```  
 
 ## 🎨 Screenshots  
-*Coming Soon...*  
+### 🌤 Weather App UI
+![Weather App UI](src/assets/Weather-App.png)  
